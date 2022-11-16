@@ -162,9 +162,9 @@ gitopiad status 2>&1 | jq .SyncInfo
 gitopiad tx staking create-validator \
 --amount="5000000utlore" \
 --pubkey=$(gitopiad tendermint show-validator) \
---moniker="NodeName" \
+--moniker="nodegitnijat" \
 --chain-id=gitopia-janus-testnet-2 \
---from="WalletName" \
+--from="wallet2" \
 --commission-rate="0.1" \
 --commission-max-rate=0.15 \
 --commission-max-change-rate=0.1 \
